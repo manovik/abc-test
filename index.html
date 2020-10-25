@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" sizes="16px 16px" href="./images/favicon.ico">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Финансовый тест</title>
+</head>
+
+<body>
+  <!-- 
+    wrapper & wrapper__content are made to 
+    lower the footer to the bottom of page. 
+    structure is
+    wrapper > wrapper__content + footer 
+  -->
+  <div class="wrapper">
+    <div class="wrapper__content">
+
+      <h1>АКЦИЯ</h1>
+      <div class="header">
+        <div class="container"> 
+          <header class="header__wrapper">
+            <a class="header__logo" href="#">
+              <img class="header__logo-img" src="./images/Logo.svg" alt="Logo">
+            </a>
+            <p class="header__text">
+              Революционная финансовая программа, разработанная 
+              <span class="header__text--mod-fw">
+                Международной организацией бизнес-ангелов и меценатов.
+              </span> 
+              <span class="header__text--mod-fw header__text--mod-color">Румыния</span>
+              <span>
+                <img class="header__text-img" src="./images/Flag.svg" alt="">
+              </span>
+            </p>
+          </header>
+        </div>
+      </div>
+      <main>
+        <section class="congrats">
+          <div class="container">
+            <div class="congrats__wrapper">
+              <div class="congrats__date">
+                <p class="congrats__date-text">
+                  Дата проведения:  с 24.10.2019 по 
+                  <span class="congrats__date-text--mod-color">31.10.2019</span>
+                </p>
+              </div>
+              <div class="congrats__box">
+                <h2 class="congrats__title congrats__claim">Поздравляем</h2>
+                <p class="congrats__text">
+                  Вы были отобраны для участия в финансовом эксперименте:
+                </p>
+                <p class="congrats__claim">
+                  "Получать 1000 евро каждую неделю!"
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="attempt">
+          <div class="container">
+            <div class="attempt__wrapper">
+              <div class="attempt__descr">
+                <diшv class="attempt__img-box">
+                  <img class="attempt__img" 
+                        src="./images/claim.svg" 
+                        alt="attention picture">
+                </diшv>
+                <div class="attempt__text-box">
+                  <h4 class="attempt__text-title">Внимание:</h4>
+                  <p class="attempt__text">
+                    Сегодня последний день, когда Вам доступна свободная регистрация!
+                  </p>                
+                </div>
+              </div>
+              <div class="attempt__descr">
+                <div class="attempt__img-box">
+                  <img class="attempt__img"
+                        src="./images/money.svg" 
+                        alt="wallet picture">
+                </div>
+                <div class="attempt__text-box">
+                  <p class="attempt__text">
+                    Для получения важной информации, просим ответить Вас всего на 3 простых вопроса:
+                </p>
+                </div>
+              </div>
+              <button class="attempt__btn" id="takePart">
+                <span class="attempt__btn-text">
+                  Принять участие 
+                </span>
+                <img class="attempt__btn-img" 
+                      src="./images/icon_arrow.svg"
+                      alt="Arrow picture"> 
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/manovik/">
+        made by me
+      </a>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
