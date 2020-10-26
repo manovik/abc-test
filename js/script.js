@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', () => {
             quest: 'Когда вы готовы забрать деньги?',
             button1: 'Через час',
             button2: 'Через 2 дня',
-            button3: 'Мне нужна работа',
+            button3: 'Через неделю',
           };
     
             
